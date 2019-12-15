@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+
+	
+	
+	// ######### Getting the current date and time ##########
+		
+		// var date = new Date();
+		// document.write(date);
+
+	// ######## Extracting parts of the date and time ###########
+	
+		// var this_month = new Date();
+		// var month = ["January", "February", "March", "April", "May", "June", "July", "Auguest", "September", "October", "November", "December"];
+		// document.write("Current month = " + month[this_month.getMonth()]);
+
+		// var day = new Date();
+		// var week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thrusday", "Friday", "Saturday"];
+		// document.write("Current Day = " + week[day.getDay()].slice(0, 3));
+
+	//############### Specifying a date and time ##############
+	
+		// var current = new Date("12/15/2019");
+		// var previous = new Date("6/6/2019");
+
+		// var seconds = current.getTime() - previous.getTime();
+
+		// var days = seconds / (60 * 60 * 24 * 1000);
+		// document.write(days);
+	
+	//############### Changing elements of a date and time ##############
+	
+		// var d = new Date();
+		// d.setFullYear(1919);
+		// document.write(d);
+
+	//########## FUNCTIONS ###############
+
+		// function greet(firstName,lastName) {
+			
+
+		//     var fullName = firstName + lastName;
+
+		//     document.write(fullName);
+			
+		//     //
+		// }
+
+		// document.write("Welcome ") + greet("Azmeena", " Jabbar");
+
+		// function name(city){
+			
+		//    city = city.replace('k','K'); 
+		   
+		//     city = city.charAt(0).toUpperCase()  + city.slice(1);
+			
+		//     document.write(city);
+		// }
+		// name("karachi"); 
+
+
+        // function func(str, letter) {
+        //     var count = 0;
+        //     for (var i = 0; i < str.length; i++) {
+        //         if (str.charAt(i) == letter) {
+        //             count += 1;
+        //         }
+        //     }
+        //     document.write(count);
+        // }
+	
+        // func('JSResources.com', 'o');
+		
+		
+	//################## Functions: passing data back from them ################
+
+	
+
+        // function calc(num1, num2, operator) {
+        //     var result = num1 + num2;
+        //     document.write(result);
+        // }
+        // calc(5, 3, '+');
+
+        // var color = prompt("Enter Color:");
+        // color = color.toLowerCase();
+        // switch (color) {
+        //     case 'red':
+        //         document.write("Must Stop");
+        //         break;
+        //     case 'yellow':
+        //         document.write("Ready to move");
+        //         break;
+        //     case 'green':
+        //         document.write("Move now");
+        //         break;
+        //     default:
+        //         document.write("Error");
+        // }
+
+
+        // @@@@@@@@@@@@@@@@@ WHILE LOOP @@@@@@@@@@@@@@@
+
+        // var number = Number(prompt("Enter Table Number:"));
+        // var length = Number(prompt("Enter Length:"));
+        // var count = 0;
+        // while (true) {
+        //     document.write(number + " x " + count + " = " + number * count + "<br>");
+        //     if (count == length)
+        //         break;
+        //     count++;
+        // }
+
+
+
+        // var counting = 0;
+        // while (counting <= 15) {
+        //     document.write(counting + " ");
+        //     counting++;
+        // }
+
+
+        // var counting = 15;
+        // while (counting >= 1) {
+        //     document.write(counting + " ");
+        //     counting--;
+        // }
+
+
+        // var counting = 0;
+        // while (counting <= 20) {
+        //     if (counting % 2 == 0) {
+        //         document.write(counting + " ");
+        //     }
+        //     counting++;
+        // }
+        // var counting = 0;
+        // while (counting <= 20) {
+        //     if (counting % 2 == 1) {
+        //         document.write(counting + " ");
+        //     }
+        //     counting++;
+        // }
+
+        // var series = 1;
+        // while (series <= 20) {
+        //     if (series % 2 == 0) {
+        //         document.write(series + "k ");
+        //     }
+        //     series++;
+        // }
+
+        // var fruits = ['apple', 'orange', 'banana', 'graps', 'mango'];
+        // var length = Number(prompt("Enter Length:"));
+        // var count = 1;
+        // while (true) {
+        //     document.write(fruits[count] + " ");
+        //     if (count == length)
+        //         break;
+        //     count++;
+        // }
+
+
+
+        // var food = ["cake", "apple", "pie", "cookie", "chips", "patties"];
+        // var searchFood = prompt("Enter Search:");
+        // var i = 0;
+        // while (true) {
+        //     if (searchFood == food[i]) {
+        //         document.write(food[i] + " found ");
+        //     }
+        //     if (i == food.length)
+        //         break;
+        //     i++;
+        // }
+
+
+        // var num = [24, 54, 16, 23, 45];
+        // var maxi = num[0];
+        // var mini = num[0];
+        // var i = 0;
+        // while (i < 5) {
+        //     if (maxi < num[i]) {
+        //         maxi = num[i]
+        //     }
+        //     else if (mini > num[i]) {
+        //         mini = num[i]
+        //     }
+        //     i++;
+        // }
+
+        // document.write("maximum = " + maxi + "<br>");
+        // document.write("minimum = " + mini);
+
+
+        // @@@@@@@@@@@@@@@@@ DO - WHILE - LOOP @@@@@@@@@@@@@@@
+
+
+
+        // var number = Number(prompt("Enter Table Number:"));
+        // var length = Number(prompt("Enter Length:"));
+        // var count = 0;
+
+        // do {
+        //     document.write(number + " x " + count + " = " + number * count + "<br>");
+
+        //     count++;
+        // } while (count <= length);
+
+
+        // var counting = 1;
+        // do {
+        //     document.write(counting + " ");
+        //     counting++;
+        // } while (counting <= 15);
+
+        // var counting = 15;
+        // do {
+        //     document.write(counting + " ");
+        //     counting--;
+        // } while (counting >= 1);
+
+
+
+
+        // var counting = 0;
+        // do {
+        //     if (counting % 2 == 0) {
+        //         document.write(counting + " ");
+        //     }
+        //     counting++;
+        // } while (counting <= 20);
+
+
+        // var counting = 0;
+        // do {
+        //     if (counting % 2 == 1) {
+        //         document.write(counting + " ");
+        //     }
+        //     counting++;
+        // } while (counting <= 20);
+
+
+        // var series = 1;
+        // do {
+        //     if (series % 2 == 0) {
+        //         document.write(series + "k ");
+        //     }
+        //     series++;
+        // } while (series <= 20)
+
+
+        // var fruits = ['apple', 'orange', 'banana', 'graps', 'mango'];
+        // var length = Number(prompt("Enter Length:"));
+        // var count = 1;
+        // do {
+        //     document.write(fruits[count] + " ");
+        //     count++;
+        // } while (count <= length);
+
+        // var food = ["cake", "apple", "pie", "cookie", "chips", "patties"];
+        // var searchFood = prompt("Enter Search:");
+        // var i = 0;
+        // do {
+        //     if (searchFood == food[i]) {
+        //         document.write(food[i] + " found ");
+        //     }
+        //     i++;
+        // } while (i <= food.length);
+
+
+
+        // var num = [24, 54, 16, 23, 45];
+        // var maxi = num[0];
+        // var mini = num[0];
+        // var i = 0;
+        // do {
+        //     if (maxi < num[i]) {
+        //         maxi = num[i]
+        //     }
+        //     else if (mini > num[i]) {
+        //         mini = num[i]
+        //     }
+        //     i++;
+        // } while (i < 5);
+
+        // document.write("maximum = " + maxi + "<br>");
+        // document.write("minimum = " + mini);
+
+</script>
+</head> 
+
+<body>
+      
+
+</body>
+
+</html>
